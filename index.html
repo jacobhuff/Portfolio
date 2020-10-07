@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Jacob Huff Portfolio</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -34,9 +34,10 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                            href="https://drive.google.com/file/d/1GF0wP2ZqpclqhUaL5dZxewn1Oq_qQx_h/view?usp=sharing"
+                            target="_blank">Resume</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -45,14 +46,15 @@
     <!-- Masthead-->
     <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
-            <div class="mx-auto text-center">
+            <div id="introduction-container" class="mx-auto text-center">
                 <h1 id="introduction" class="mx-auto my-0">Hi, I'm <span>Jacob Huff.</span></h1>
-                <h2 class="text-white-50 mx-auto mt-2 mb-5">I'm a web developer living in Cincinnati, Ohio.</h2>
+                <h2 id="introduction-subtext" class="mx-auto mt-2 mb-5">I'm a web developer living in Cincinnati, Ohio.
+                </h2>
                 <a id="get-started-button" class="btn btn-primary js-scroll-trigger" href="#skills">Get Started</a>
             </div>
         </div>
     </header>
-    <!-- About-->
+    <!-- Skills-->
     <section class="skills-section text-center" id="skills">
         <div class="container">
             <div class="row">
@@ -103,29 +105,20 @@
     <!-- Projects-->
     <section class="projects-section bg-light" id="projects">
         <div class="container">
-            <!-- Featured Project Row-->
-            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg"
-                        alt="" /></div>
-                <div class="col-xl-4 col-lg-5">
-                    <div class="featured-text text-center text-lg-left">
-                        <h4>Shoreline</h4>
-                        <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use
-                            it for any project - even commercial projects! Download it, customize it, and publish your
-                            website!</p>
-                    </div>
-                </div>
-            </div>
+            <h2 id="projects-header" class="text-dark text-center mb-4">Projects</h2>
             <!-- Project One Row-->
             <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
+                <div class="col-lg-6"><img id="getgoodbeer" class="img-fluid" src="assets/img/getgoodbeer.png" alt="" />
+                </div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Misty</h4>
-                                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or
-                                    anything else, along with a description.</p>
+                                <h4 class="text-white">Get Good Beer</h4>
+                                <p class="mb-2 text-white-50">A simple website using the Untappd API to recommend you
+                                    beers based off your favorites.</p>
+                                <a id="getgoodbeer-link" href="https://getgoodbeer.herokuapp.com" target="_blank">Visit
+                                    Site</a>
                                 <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
@@ -134,50 +127,57 @@
             </div>
             <!-- Project Two Row-->
             <div class="row justify-content-center no-gutters">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
+                <div class=" col-lg-6"><img id="rgbgame" class="img-fluid" src="assets/img/rgbgame.png" alt="" /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">Mountains</h4>
-                                <p class="mb-0 text-white-50">Another example of a project with its respective
-                                    description. These sections work well responsively as well, try this theme on a
-                                    small screen!</p>
+                                <h4 class="text-white">RGB Color Game</h4>
+                                <p class="mb-2 text-white-50">A small game created using HTML, CSS, and JavaScript.</p>
+                                <a id="rgbgame-link" href="https://jacobhuff.github.io/colorgame" target="_blank">Visit
+                                    Site</a>
                                 <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Signup-->
-    <section class="signup-section" id="signup">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto text-center">
-                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                    <form class="form-inline d-flex">
-                        <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email"
-                            placeholder="Enter email address..." />
-                        <button class="btn btn-primary mx-auto" type="submit">Subscribe</button>
-                    </form>
+            <!-- Project Three Row-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6"><img id="productlanding" class="img-fluid" src="assets/img/productlanding.png"
+                        alt="" />
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Get Good Beer</h4>
+                                <p class="mb-2 text-white-50">Designed using Bootstrap, HTML, and CSS, this site
+                                    represents
+                                    a product landing page.</p>
+                                <a id="productlanding-link" href="https://jacobhuff.github.io/productPage/index.html"
+                                    target="_blank">Visit
+                                    Site</a>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
     </section>
     <!-- Contact-->
-    <section class="contact-section bg-black">
+    <section id="contact" class="contact-section bg-black">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
                             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Address</h4>
+                            <h4 class="text-uppercase m-0">Location</h4>
                             <hr class="my-4" />
-                            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                            <div class="small text-black-50">Cincinnati, Ohio</div>
                         </div>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                             <i class="fas fa-envelope text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Email</h4>
                             <hr class="my-4" />
-                            <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                            <div class="small text-black-50"><a href="#!">jacobhuff1313@gmail.com</a></div>
                         </div>
                     </div>
                 </div>
@@ -197,21 +197,21 @@
                             <i class="fas fa-mobile-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Phone</h4>
                             <hr class="my-4" />
-                            <div class="small text-black-50">+1 (555) 902-8832</div>
+                            <div class="small text-black-50">(859) 609-7606</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="social d-flex justify-content-center">
-                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                <a class="mx-2" href="https://www.linkedin.com/in/jacobhuff1/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a class="mx-2" href="https://github.com/jacobhuff" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </section>
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
-        <div class="container">Copyright © Your Website 2020</div>
+        <div class="container">©2020 Jacob Huff</div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
