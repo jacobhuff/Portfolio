@@ -10389,3 +10389,14 @@ body {
 .skill-description {
   color: var(--light);
 }
+#me-img {
+  border-radius: 50%;
+  border: 5px solid var(--dark);
+  width: 250px;
+}
+#me-img-container {
+  text-align: center;
+}
+#me-text-container {
+  text-align: center;
+}
