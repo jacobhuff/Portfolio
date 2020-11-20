@@ -10404,6 +10404,7 @@ body {
 .about-section {
   padding: 100px 0;
 }
-.project-row {
+.project-row, .project-row img {
   height: 350px;
+  width: 100%;
 }
